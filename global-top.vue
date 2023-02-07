@@ -6,11 +6,9 @@
         <div class="ball bg-blue-600" />
         <div class="ball bg-black" />
       </span>
-      <span class="opacity-70">This is a title: 2022</span>
     </header>
     <footer class="absolute bottom-6 left-14 right-0 flex gap-4 text-xs">
-      <span>Email: i@timel@ink</span>
-      <span>Tel: 1237824329</span>
+      This is a title: 2022
     </footer>
   </template>
 </template>

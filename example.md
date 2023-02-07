@@ -25,6 +25,25 @@ Slide Subtitle
 * Slide bullet text
 
 ---
+layout: image-single
+img: /1.webp
+caption: 一张测试文本
+---
+
+---
+layout: image-text
+img: /1.webp
+caption: 一张测试文本
+textScale: 0.5
+---
+
+# How can we test the final game
+
+- test
+- test
+- hello
+
+---
 layout: image-right
 image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
