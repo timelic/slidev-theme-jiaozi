@@ -35,6 +35,7 @@ layout: image-text
 img: /1.webp
 caption: 一张测试文本
 textScale: 0.5
+textPos: left
 ---
 
 # How can we test the final game
@@ -42,6 +43,10 @@ textScale: 0.5
 - test
 - test
 - hello
+
+$$
+\int_a^b\frac{3211p}{78942x} = \Delta this
+$$
 
 ---
 layout: image-right

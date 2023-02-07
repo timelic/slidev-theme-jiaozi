@@ -1,15 +1,15 @@
 <template>
   <div class="slidev-layout">
-    <div class="my-auto h-full w-full flex">
+    <div class="my-auto h-full w-full flex gap-8">
       <div
         class="left flex-shrink-0"
-        :style="{ width: `calc(${textScale} * 100%)`, order: leftOrder }"
+        :style="{ flexGrow: textScale, order: leftOrder, flexBasis: 0 }"
       >
         <slot />
       </div>
       <div
         class="right flex-shrink-0 flex flex-col gap-4"
-        :style="{ width: `calc(${textScale} * 100%)`, order: rightOrder }"
+        :style="{ flexGrow: 1 - textScale, order: rightOrder, flexBasis: 0 }"
       >
         <div class="relative flex-1 w-full flex justify-center items-center">
           <img
