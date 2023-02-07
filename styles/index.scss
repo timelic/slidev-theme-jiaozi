@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,800&display=swap');
+
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+}
+
+.slidev-layout {
+  background-color: #f2f2f2;
+  padding-top: 4rem;
+}
+
+#page-root {
+  --slidev-theme-primary: #006eff !important;
+}
+
+:root {
+  font-size: 15.5px;
+}
