@@ -8,15 +8,14 @@
         <slot />
       </div>
       <div
-        class="right flex-shrink-0 flex flex-col gap-4"
+        class="right flex-shrink-0 flex flex-col gap-4 justify-center items-center"
         :style="{ flexGrow: 1 - textScale, order: rightOrder, flexBasis: 0 }"
       >
-        <div class="relative flex-1 w-full flex justify-center items-center">
-          <img
-            class="rounded-md absolute max-h-full object-contain"
+        <img
+            class="rounded-md max-h-full object-contain overflow-hidden"
             :src="img"
+            style="width: fit-content"
           />
-        </div>
         <div v-if="caption" class="text-center">{{ caption }}</div>
       </div>
     </div>

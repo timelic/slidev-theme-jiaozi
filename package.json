@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@slidev/cli": "^0.40.2",
+    "naive-ui": "^2.34.3",
     "sass": "^1.58.0"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
